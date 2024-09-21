@@ -135,9 +135,6 @@ Measurement Units
 - Energy Units (CPU, DRAM) = Microjoules
 - Duration = Microseconds
 
-For raw data, refer to the
-- [SHA-256 Sequential Access Measurement Details](./Device%20ID/IoT%20Client.csv)
-- [SHA-256 Parallel Access Measurement Details](./Device%20ID/E-IoT%20Client.csv)
  
 ---
 
@@ -400,10 +397,6 @@ This section provides the statistical summary of the energy measurements and dur
 |--------------------|---------|---------|----------|
 | IoT Client     |  1.4% |  3.1% |  1.3%  |
 | Base Station    |   1.3% |  1.8% |  1.7%    |
-
-For raw data, refer to the
-- [SHA-256 Sequential Access Measurement Details](./Device%20Transactions/IoT.csv)
-- [SHA-256 Parallel Access Measurement Details](./Device%20Transactions/E-IoT.csv)
   
 Measurement Units
 - Energy Units (CPU, DRAM) = Microjoules
