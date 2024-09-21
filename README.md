@@ -112,80 +112,31 @@ Sent tuple to IoT (C): ('127.0.0.1', 54044) - ('0x00000000000000aa', '7a8253502d
 
 This section provides the statistical summary of the energy measurements and duration using pyRAPL (Python Running Average Power Limit).
 #
-> **IOT CLIENT**
 
 | SEQUENTIAL | CPU  | DRAM  | Duration  |
 |-----------|----------|----------|-------------|
-| MEAN      | 135051 | 12523| 23940 |
-| MEDIAN    | 130462      | 7386   | 11310     |
-| STDEV   | 45805	| 11478 | 28025 |
+| IoT Client | 774842 | 197058 | 584787 |
+| Authentication Server | 1506117 | 862443 |  585755|
+| Data Server  | 1505859 | 862154 |  585535 |
 
 | PARALLEL | CPU  | DRAM  | Duration |
 |-----------|----------|----------|-------------|
-| MEAN      | 125495 | 9650 | 17977 |
-| MEDIAN    | 122620   | 6287      | 10769     |
-|STDEV | 26616	| 8188	| 17158 |
+| IoT Client    | 750888 | 188364 | 556404 |
+| Authentication Server | 1436314 | 822456 | 557470 |
+| Data Server | 1436441 | 822411 | 557417 |
 
 | PERCENTAGE %      | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | -7      | -23     | -25     |
-| MEDIAN    | -6      | -15     | -5      |
+| IoT Client    |  3.1% | 4.4% |  4.9% |
+| Authentication Server | 4.6% | 4.6% | 4.8% |
+| Data Server |  4.6% | 4.6% | 4.8% |
 
 
 For raw data, refer to the
 - [SHA-256 Sequential Access Measurement Details](./Device%20ID/IoT%20Client.csv)
 - [SHA-256 Parallel Access Measurement Details](./Device%20ID/E-IoT%20Client.csv)
 #
-> **AUTHENTICATION SERVER**
-
-| SEQUENTIAL       | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 134875  | 12529   | 23959   |
-| MEDIAN    | 128540  | 7538    | 11372   |
-|STDEV    |    44326	| 11182 |	27056   |
-
-| PARALLEL    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 126108  | 9685    | 18076   |
-| MEDIAN    | 122680  | 6531    | 10914   |
-|STDEV    |   27557 | 8228	| 17301    |
-
-| PERCENTAGE  %    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | -7      | -23     | -25     |
-| MEDIAN    | -5      | -13     | -4      |
-
-
-For raw data, refer to the
-- [SHA-256 Sequential Access Measurement Details](./Device%20ID/Authentication%20Server.csv)
-- [SHA-256 Parallel Access Measurement Details](./Device%20ID/E-Authentication%20Server.csv)
-
-#
-> **DATA SERVER**
-
-| SEQUENTIAL       | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 135259  | 12539   | 23943   |
-| MEDIAN    | 130737  | 7447    | 11294   |
-|STDEV    |   45891	| 11499 |	28008     |
-
-| PARALLEL    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 125630  | 9660    | 17959   |
-| MEDIAN    | 122192  | 6165    | 10798   |
-|STDEV    |   26545 |	8176	| 17126    |
-
-| PERCENTAGE  %    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | -7      | -23     | -25     |
-| MEDIAN    | -7      | -17     | -4      |
-
-
-For raw data, refer to the
-- [SHA-256 Sequential Access Measurement Details](./Device%20ID/Data%20Server.csv)
-- [SHA-256 Parallel Access Measurement Details](./Device%20ID/E-Data%20Server.csv)
-
-  
+ 
 Measurement Units
 - Energy Units (CPU, DRAM) = Microjoules
 - Duration = Microseconds
