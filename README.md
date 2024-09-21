@@ -131,15 +131,14 @@ This section provides the statistical summary of the energy measurements and dur
 | Authentication Server | 4.6% | 4.6% | 4.8% |
 | Data Server |  4.6% | 4.6% | 4.8% |
 
+Measurement Units
+- Energy Units (CPU, DRAM) = Microjoules
+- Duration = Microseconds
 
 For raw data, refer to the
 - [SHA-256 Sequential Access Measurement Details](./Device%20ID/IoT%20Client.csv)
 - [SHA-256 Parallel Access Measurement Details](./Device%20ID/E-IoT%20Client.csv)
-#
  
-Measurement Units
-- Energy Units (CPU, DRAM) = Microjoules
-- Duration = Microseconds
 ---
 
 
@@ -226,100 +225,27 @@ Sent tuple to IoT (C): ('127.0.0.1', 50335) - ('RApp', '0x00000000000000aa', '0x
 
 This section provides the statistical summary of the energy measurements and duration using pyRAPL (Python Running Average Power Limit).
 #
-> **IOT CLIENT**
 
 | SEQUENTIAL | CPU  | DRAM  | Duration  |
 |-----------|----------|----------|-------------|
-| MEAN      | 190546  | 19709   | 34353   |
-| MEDIAN    | 178864  | 12268   | 15825   |
-|STDEV    |   73401	| 17326	| 43508     |
+| IoT Client |  1316593 | 328564 | 995397 |
+| Authentication Server |  2442085 | 1442671 |998613 |
+| Home Base Station |   2438706 | 1441211 | 997650 |
+| Visiting Base Station | 2435663 | 1439906 | 996787|
 
 | PARALLEL | CPU  | DRAM  | Duration |
 |-----------|----------|----------|-------------|
-| MEAN      | 192874  | 16038   | 26915   |
-| MEDIAN    | 181641  | 11352   | 14965   |
-|STDEV    |     72329	| 16514 | 42621   |
+| IoT Client | 1299641 | 326426 | 980816  |
+| Authentication Server |  2411952 | 1421583 |983750|
+| Home Base Station |  2408627 | 1420214 | 982851 |
+| Visiting Base Station | 2404560  | 1418571 | 981790 |
 
 | PERCENTAGE %      | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| MEAN      | 1       | -19     | -22     |
-| MEDIAN    | 2       | -7      | -5      |
-
-For raw data, refer to the
-- [SHA-256 Sequential Access Measurement Details](./Device%20Join/IoT%20Client.csv)
-- [SHA-256 Parallel Access Measurement Details](./Device%20Join/E-IoT%20Client.csv)
-#
-> **AUTHENTICATION SERVER**
-
-| SEQUENTIAL       | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 190106  | 19695   | 34422   |
-| MEDIAN    | 177704  | 12268   | 16004   |
-|STDEV    |   83180	| 18586 | 47401     |
-
-| PARALLEL    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 192218  | 16009   | 26940   |
-| MEDIAN    | 181335  | 11109   | 15020   |
-|STDEV    |    77109	| 17130	| 44627    |
-
-| PERCENTAGE  %    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 1       | -19     | -22     |
-| MEDIAN    | 2       | -9      | -6      |
-
-
-For raw data, refer to the
-- [SHA-256 Sequential Access Measurement Details](./Device%20Join/Authentication%20Server.csv)
-- [SHA-256 Parallel Access Measurement Details](./Device%20Join/E-Authentication%20Server.csv)
-
-#
-> **HOME BASE STATION**
-
-| SEQUENTIAL       | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 190375  | 19706   | 34392   |
-| MEDIAN    | 177123  | 12146   | 15813   |
-|STDEV    |    81523	| 18633	| 47554   |
-
-| PARALLEL    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 192592  | 16016   | 26934   |
-| MEDIAN    | 181885  | 10925   | 14977   |
-|STDEV    |   76394	| 17233	| 44943     |
-
-| PERCENTAGE  %    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 1       | -19     | -22     |
-| MEDIAN    | 3       | -10     | -5      |
-
-For raw data, refer to the
-- [SHA-256 Sequential Access Measurement Details](./Device%20Join/Home%20Base%20Station.csv)
-- [SHA-256 Parallel Access Measurement Details](./Device%20Join/E-Home%20Base%20Station.csv)
-
-#
-> **VISITING BASE STATION**
-
-| SEQUENTIAL       | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 190384  | 19704   | 34355   |
-| MEDIAN    | 178039  | 12268   | 15867   |
-|STDEV    |   73338	| 17301	| 43479    |
-
-| PARALLEL    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 192296  | 16007   | 26874   |
-| MEDIAN    | 181213  | 11261   | 14922   |
-|STDEV    |   72517 | 	16489 |	42553    |
-
-| PERCENTAGE  %    | CPU   | DRAM  | Duration |
-|--------------------|---------|---------|----------|
-| MEAN      | 1       | -19     | -22     |
-| MEDIAN    | 2       | -8      | -6      |
-
-For raw data, refer to the
-- [SHA-256 Sequential Access Measurement Details](./Device%20Join/Visiting%20Base%20Station.csv)
-- [SHA-256 Parallel Access Measurement Details](./Device%20Join/E-Visiting%20Base%20Station.csv)
+| IoT Client | 1.3% | 0.7% | 1.5% | 
+Authentication Server |  1.2% | 1.5% | 1.5%  |
+| Home Base Station | 1.2% | 1.5% | 1.5%   |
+| Visiting Base Station | 1.3% | 1.5% | 1.5%  |
   
 Measurement Units
 - Energy Units (CPU, DRAM) = Microjoules
