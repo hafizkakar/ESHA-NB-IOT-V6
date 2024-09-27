@@ -54,7 +54,7 @@ Non-Interactive Zero-Knowledge Proof: The prover verifies that it knows secret i
 <p align="center">Seed = Old Unique ID | Encryption Secret | Nonce  <br/>Unique ID = UUID(random.getrandbits(Seed)</p>
 <br/>
 <p align="center">	  
-  <img src="./Figures/id.jpg" width="550" title="NB-IoT Framework">
+  <img src="./Figures/id.jpg" width="350" title="NB-IoT Framework">
 </p>
 
 # 
@@ -149,7 +149,7 @@ Measurement Units
 * (7-10) NB-IoT sends 'Join Request' to Visiting Base Station. Visiting Base Station downloads JSON file from IPFS, verifies IoT device using Unique ID and then sends 'New Unique ID' and 'Encryption Secret' to NB-IoT device. The New Unique ID and Encryption Secret is then used by Non-Interactive ZKP for block approval.
 
 <p align="center">	  
-  <img src="./Figures/join.jpg" width="750" title="NB-IoT Framework">
+  <img src="./Figures/join.jpg" width="350" title="NB-IoT Framework">
 </p>
 
 # 
@@ -272,7 +272,7 @@ Measurement Units
 * Base station will generate and compare its hash with received hash and on verification will append the transaction to its merkle tree and linear hash chain.
 
 <p align="center">	  
-  <img src="./Figures/transaction.jpg" width="550" title="NB-IoT Framework">
+  <img src="./Figures/transaction.jpg" width="350" title="NB-IoT Framework">
 </p>
 
 # 
