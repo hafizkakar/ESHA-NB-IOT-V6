@@ -54,7 +54,7 @@ Non-Interactive Zero-Knowledge Proof: The prover verifies that it knows secret i
 <p align="center">Seed = Old Unique ID | Encryption Secret | Nonce  <br/>Unique ID = UUID(random.getrandbits(Seed)</p>
 <br/>
 <p align="center">	  
-  <img src="./Figures/ID.jpg" width="550" title="NB-IoT Framework">
+  <img src="./Figures/id.jpg" width="550" title="NB-IoT Framework">
 </p>
 
 # 
