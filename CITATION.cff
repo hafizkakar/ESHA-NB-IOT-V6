@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: NB-IoT Hbyrid Blockchain using ESHA-256 Algorithm
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Hafizullah
+    family-names: Kakar
+    email: n01543583@unf.edu
+    affiliation: University of North Florida
+  - given-names: Swapnoneel
+    family-names: Roy
+    email: s.roy@unf.edu
+    affiliation: University of North Florida
+    orcid: 'https://orcid.org/0000-0003-1164-2757'
+repository-code: 'https://github.com/hafizkakar/ESHA-NB-IOT-V6'
+abstract: >-
+  The goal of this study is to further save energy
+  consumption by NB-IoT Framework in "Enabling secure
+  lightweight mobile Narrowband Internet of Things (NB-IoT)
+  applications using blockchain" by using the Energy
+  Efficient SHA-256 (ESHA-256) algorithm.
+keywords:
+  - 'NB-IoT, Blockchain, SHA256, Energy Optimization'
+license: Python-2.0
+version: '1.0'
+date-released: '2024-09-27'
