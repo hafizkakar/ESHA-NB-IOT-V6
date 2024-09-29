@@ -347,6 +347,23 @@ This section provides the statistical summary of the energy measurements and dur
 | IoT Client     |   2.8% |  0.8% |  0.4%  |
 | Base Station    |     0.4% | 0.5% |  0.6%  |
 
+> ** MESSAGE SIZE = 128 bytes **
+
+| SEQUENTIAL | CPU  | DRAM  | Duration  |
+|-----------|----------|----------|-------------|
+| IoT Client     |  521395	| 129560	| 421181  |
+| Base Station    | 655866 |	610531	| 421630  |
+
+| PARALLEL | CPU  | DRAM  | Duration |
+|-----------|----------|----------|-------------|
+| IoT Client     |  498073	| 126073	| 412044|
+| Base Station    |   640476	| 597514	| 412348 |
+
+| PERCENTAGE %      | CPU   | DRAM  | Duration |
+|--------------------|---------|---------|----------|
+| IoT Client     |   4.5%	| 2.7%	| 2.2%  |
+| Base Station    |     2.3% |	2.1%	| 2.2% |
+
 > ** MESSAGE SIZE = 256 bytes **
 
 | SEQUENTIAL | CPU  | DRAM  | Duration  |
