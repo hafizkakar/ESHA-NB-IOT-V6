@@ -16,7 +16,7 @@ SHA-256 algorithm access message data from memory banks sequentially, as shown i
 
 
 # Energy Efficient SHA-256 (ESHA-256) 
-<p align="center"><img src="./Figures/esha.jpeg" width="700" height="250" title="ESHA-256">
+<p align="center"><img src="./Figures/esha.jpeg" width="600" height="250" title="ESHA-256">
 </p>
 
 ESHA-256 algorithm reduces the computational power required for running the SHA-256 algorithm by access message data from memory banks in parallel rather than sequentially, as shown in the above figure. 
