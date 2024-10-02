@@ -9,12 +9,13 @@
 # Motivation
 The goal of this study is to further save energy consumption by NB-IoT Framework in "Enabling secure lightweight mobile Narrowband Internet of Things (NB-IoT) applications using blockchain" by using the Energy Efficient SHA-256 (ESHA-256) algorithm.   
 
-# SHA-256 vs ESHA-256
+# SHA-256 
 <p align="center"><img src="./Figures/sha.jpeg" width="400" height="250" title="ESHA-256">
 </p>
 SHA-256 algorithm access message data from memory banks sequentially, as shown in the above figure. 
 
 
+# Energy Efficient SHA-256 (ESHA-256) 
 <p align="center"><img src="./Figures/esha.jpeg" width="700" height="250" title="ESHA-256">
 </p>
 
