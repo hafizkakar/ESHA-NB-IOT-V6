@@ -35,10 +35,11 @@ ESHA-256 algorithm reduces the computational power required for running the SHA-
 -->
 #
 # ESHA-NB-IOT Framework
+<!--
 <p align="center">	  
   <img src="./Figures/Fig1.png" width="500" title="NB-IoT Framework">.....<img src="./Figures/Fig7.png" width="300" title="NB-IoT Framework">
 </p>
-
+-->
 * NB-IOT: devices are resource constrained with less computational power, low memory, storage and bandwidth. Therefore, devices only store hash of transactions initiated by them in an array as linear hash chain. By design, NB-IoT devices will have device address and reputation (default 4).
 * BASE STATIONS: Transactions initiated by NB-IoT devices can only be authorized by base station using non-interactive ZKP and then added to blockchain. The base station dynamically partitions its memory to store device transactions in a merkle tree and allocate the rest to store individual device transactions in a linear hash chain for faster access.
 * ETHEREUM BLOCKCHAIN: NB-IoT Devices and base stations are connected through ethereum blockchain using Remix IDE Smart Contracts. Non-interactive ZKP (HMAC) is used as consensus algorithm for block approval.
