@@ -1,4 +1,4 @@
-<h2 align="center"> NB-IoT Hbyrid Blockchain using ESHA-256 Algorithm </h2>
+<h2 align="center"> NB-IoT Hbyrid Blockchain using ECM-SHA256 Algorithm </h2>
 
 <p align="center">
   <a href="#Unique-ID-Generation"> Unique ID Generation </a> •
@@ -7,22 +7,22 @@
 </p>
 
 # Motivation
-The goal of this study is to further save energy consumption by NB-IoT Framework in "Enabling secure lightweight mobile Narrowband Internet of Things (NB-IoT) applications using blockchain" by using the Energy Efficient SHA-256 (ESHA-256) algorithm.   
+The goal of this study is to further save energy consumption by NB-IoT Framework in "Enabling secure lightweight mobile Narrowband Internet of Things (NB-IoT) applications using blockchain" by using the ECM-SHA256 algorithm.   
 
 # SHA-256 
-<p align="center"><img src="./Figures/sha.jpeg" width="400" height="250" title="ESHA-256">
+<p align="center"><img src="./Figures/sha.jpeg" width="400" height="250" title="ECM-SHA256">
 </p>
 SHA-256 algorithm access message data from memory banks sequentially, as shown in the above figure. 
 
 
-# Energy Efficient SHA-256 (ESHA-256) 
-<p align="center"><img src="./Figures/esha.jpeg" width="600" height="250" title="ESHA-256">
+# ECM-SHA256
+<p align="center"><img src="./Figures/esha.jpeg" width="600" height="250" title="ECM-SHA256">
 </p>
 
-ESHA-256 algorithm reduces the computational power required for running the SHA-256 algorithm by access message data from memory banks in parallel rather than sequentially, as shown in the above figure. 
+ECM-SHA256 algorithm reduces the computational power required for running the SHA-256 algorithm by access message data from memory banks in parallel rather than sequentially, as shown in the above figure. 
 
 <!--
-<p>This section provides the statistical summary of the energy measurements of ESHA-256 Sequential/Parallel using pyRAPL (Python Running Average Power Limit).</p>
+<p>This section provides the statistical summary of the energy measurements of ECM-SHA256 Sequential/Parallel using pyRAPL (Python Running Average Power Limit).</p>
 
 | Block Size | Bytes     | Sequential | Parallel  | Energy Savings |
 |-------------|-----------|------------|-----------|----------------|
@@ -56,7 +56,8 @@ Non-Interactive Zero-Knowledge Proof: The prover verifies that it knows secret i
 
 * For anonymity, when NB-IoT device joins a new cell, the data server issues a 'New Unique ID' and 'Encryption Secret' to the device after authentication.
 * The Unique ID is used as identifier in blockchain.
-* IoT Devices are assigned ‘Device Address’ as permanent ID by the Data Server when they join blockchain for the first time. 
+* IoT Devices are assigned ‘Device Address’ as permanent ID by the Data Server when they join blockchain for the first time.
+* ECM-SHA256 implementation highlighted in blue.
   
 <p align="center">Seed = Old Unique ID | Encryption Secret | Nonce  <br/>Unique ID = UUID(random.getrandbits(Seed)</p>
 <br/>
@@ -154,6 +155,7 @@ Measurement Units
 * (3) After authentication, NB-IoT device sends 'Leave Request' to Home Base Station along with address of Visiting Base Station.
 * (4-6) Home Base Station 'Approve' the request. Then, Base Station 'Saves' deployed Smart Contract along with transactions recorded in JSON format in Remix IDE. The file is then uploaded to Inter Planetary File System (IPFS) and resulting File Hash is shared with Visiting Base Station.
 * (7-10) NB-IoT sends 'Join Request' to Visiting Base Station. Visiting Base Station downloads JSON file from IPFS, verifies IoT device using Unique ID and then sends 'New Unique ID' and 'Encryption Secret' to NB-IoT device. The New Unique ID and Encryption Secret is then used by Non-Interactive ZKP for block approval.
+* ECM-SHA256 implementation highlighted in blue.
 
 <p align="center">	  
   <img src="./Figures/join.jpg" width="550" title="NB-IoT Framework">
@@ -277,6 +279,7 @@ Measurement Units
 * Devices generate SHA256 hash using Timestamp, nonce, unique ID, reputation, message and Encryption Secret.
 * Resulting hash is sent to Base Station along with Timestamp, nonce, unique ID, reputation, message.
 * Base station will generate and compare its hash with received hash and on verification will append the transaction to its merkle tree and linear hash chain.
+* ECM-SHA256 implementation highlighted in blue.
 
 <p align="center">	  
   <img src="./Figures/transaction.jpg" width="350" title="NB-IoT Framework">
@@ -436,7 +439,7 @@ Measurement Units
 
 ---
 
-<h4 align="center"> NB-IoT Hbyrid Blockchain using ESHA-256 Algorithm </h4>
+<h4 align="center"> NB-IoT Hbyrid Blockchain using ECM-SHA256 Algorithm </h4>
 
 <p align="center">
   <a href="#Unique-ID-Generation"> Unique ID Generation </a> •
