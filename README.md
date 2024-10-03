@@ -441,7 +441,8 @@ Measurement Units
 ---
 
 <h4 align="center"> INITIAL EXPERIMENT - SINGLE SYSTEM </h4>
-**Repository:** https://github.com/hafizkakar/ESHA-NB-IOT-V5.git
+
+<a href="https://github.com/example-user/example-repo" target="_blank">Check out this repository</a>
 
 ---
 
