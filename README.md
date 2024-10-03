@@ -444,7 +444,7 @@ Measurement Units
 
 |      | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-| **Average %**         | **-19.63**  | **-33.14** | **-36.64** |
+| Average %        | 19.63  | 33.14 | 36.64 |
 
 <a href="https://github.com/hafizkakar/ESHA-NB-IOT-V5.git" target="_blank">Check Repository</a>
 
