@@ -435,14 +435,18 @@ Measurement Units
 
 | AVERAGE    | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
-|           | **2.1%**   | **2.0%**   | **1.9%**    |
+|           | 2.1%  | 2.0%  | 1.9%    |
 
 
 ---
 
-<h4 align="center"> INITIAL EXPERIMENT - SINGLE SYSTEM </h4>
+<h4 align="center"> INITIAL EXPERIMENTS CONDUCTED ON SINGLE SYSTEM </h4>
 
-<a href="https://github.com/hafizkakar/ESHA-NB-IOT-V5.git" target="_blank">Check Single System Experiments Repository</a>
+|      | CPU   | DRAM  | Duration |
+|--------------------|---------|---------|----------|
+| **Average %**         | **-19.63**  | **-33.14** | **-36.64** |
+
+<a href="https://github.com/hafizkakar/ESHA-NB-IOT-V5.git" target="_blank">Check Repository</a>
 
 ---
 
