@@ -440,7 +440,7 @@ Measurement Units
 
 ---
 
-<h4 align="center"> INITIAL EXPERIMENTS CONDUCTED ON SINGLE SYSTEM </h4>
+<h4 align="center"> ** INITIAL EXPERIMENTS CONDUCTED ON SINGLE SYSTEM ** </h4>
 
 |      | CPU   | DRAM  | Duration |
 |--------------------|---------|---------|----------|
