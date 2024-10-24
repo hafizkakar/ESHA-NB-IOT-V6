@@ -449,6 +449,8 @@ Measurement Units
 <a href="https://github.com/hafizkakar/ESHA-NB-IOT-V5.git" target="_blank">Check Repository</a>
 
 ---
+<h3>Disclaimer:</h3> This project uses original code from  <a href="https://classes.engineering.wustl.edu/ese461/FinalProject/Bitcoin/" target="_blank">Washinton University Bitcoin Project by Brad conte.</a> 
+---
 
 
 <h4 align="center"> NB-IoT Hbyrid Blockchain using ECM-SHA256 Algorithm </h4>
